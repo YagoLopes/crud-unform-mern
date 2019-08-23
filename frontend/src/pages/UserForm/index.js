@@ -19,9 +19,9 @@ export default function UserForm({ history, match }) {
 
   async function handleSubmit(data) {
     console.log(data);
-    /*await api.postOrPut('/users', match.params.id, data);
+    await api.postOrPut("/users", match.params.id, data);
 
-    history.push('/users');*/
+    history.push("/users");
   }
 
   useEffect(() => {
